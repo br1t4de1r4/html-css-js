@@ -47,10 +47,16 @@ body{
     flex-direction: column;
     gap: 40px;
 }
+.apresentacao__conteudo__titulo__sobre{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria)
 
+}
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
+
 }
 .titulo-destaque{
     color: var(--cor-terciaria);
@@ -90,12 +96,20 @@ body{
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
+
 .apresentacao__imagem{
     width: 50%;
+    border-radius: 100%;
+    box-shadow: 0 0 3px 2px #22D4FD(0, 140, 186, 0.5);
+    border: 1px solid #22D4FD;
+    
 }
+    
+
+
+
 .rodape{
-    color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
